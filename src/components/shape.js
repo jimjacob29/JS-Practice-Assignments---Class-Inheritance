@@ -2,7 +2,7 @@
 
 // export class using module.exports
 
-export default class Shape {
+module.exports = class Shape {
   constructor(col = "red") {
     this.color = col;
   }
@@ -12,4 +12,4 @@ export default class Shape {
   calculateArea() {
     console.log("area calculated");
   }
-}
+};
